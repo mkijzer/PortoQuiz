@@ -27,10 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function fetchQuestions() {
     try {
-      // Use dynamic baseUrl for both local and Render environments
-      const baseUrl = window.location.origin.includes("localhost")
-        ? "http://localhost:3000" // Local testing
-        : "https://your-app.onrender.com"; // Render production
+      const baseUrl = "https://portoquiz.onrender.com"; // Render production URL
 
       const response = await fetch(
         `${baseUrl}/api/questions?count=${questionCount}`

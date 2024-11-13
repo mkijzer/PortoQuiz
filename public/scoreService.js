@@ -14,10 +14,7 @@ export async function submitScore(score, timeTaken) {
       if (name) {
         nameModal.style.display = "none";
 
-        // Dynamic baseUrl for local and Render environments
-        const baseUrl = window.location.origin.includes("localhost")
-          ? "http://localhost:3000" // Local testing
-          : "https://your-app.onrender.com"; // Render production
+        const baseUrl = "https://portoquiz.onrender.com"; // Render production URL
 
         const response = await fetch(`${baseUrl}/api/scores`, {
           method: "POST",
@@ -44,10 +41,7 @@ export async function submitScore(score, timeTaken) {
 
 export async function fetchScores() {
   try {
-    // Dynamic baseUrl for local and Render environments
-    const baseUrl = window.location.origin.includes("localhost")
-      ? "http://localhost:3000" // Local testing
-      : "https://your-app.onrender.com"; // Render production
+    const baseUrl = "https://portoquiz.onrender.com"; // Render production URL
 
     const response = await fetch(`${baseUrl}/api/scores`);
 
