@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortoQuiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>PortoQuiz</h1>
+    </header>
+
+    <section id="body">
+      <button id="start-quiz">Start Quiz</button>
+    </section>
+
+    <section id="quiz" style="display: none">
+      <div id="question-container">
+        <h2 id="question">Question goes here</h2>
+        <div id="options"></div>
+      </div>
+      <div id="timer">
+        <div class="timer-bar"></div>
+        <span id="time-left">10</span>
+        <!-- Display initial time -->
+      </div>
+    </section>
+
+    <section id="results" style="display: none">
+      <h2>Your Results</h2>
+      <p id="score">Score: 0</p>
+      <div id="scoreboard"></div>
+      <button id="restart-quiz">Play Again</button>
+    </section>
+
+    <!-- Modal for Selecting Question Count -->
+    <div id="questionCountModal" class="modal" style="display: none">
+      <div class="modal-content">
+        <h2>Select Number of Questions</h2>
+        <button class="question-count" data-count="2">2</button>
+        <button class="question-count" data-count="10">10</button>
+        <button class="question-count" data-count="25">25</button>
+        <button class="question-count" data-count="50">50</button>
+      </div>
+    </div>
+
+    <!-- Custom Modal for Entering Name -->
+    <div id="nameModal" class="modal" style="display: none">
+      <div class="modal-content">
+        <h3>Enter your name for the scoreboard:</h3>
+        <input type="text" id="nameInput" placeholder="Your Name" />
+        <button id="submitName">Submit</button>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

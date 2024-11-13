@@ -1,0 +1,719 @@
+[
+  {
+    "id": 1,
+    "question": "Wat is de hoofdstad van Portugal?",
+    "options": ["Lissabon", "Porto", "Faro", "Braga"],
+    "answer": "Lissabon"
+  },
+  {
+    "id": 2,
+    "question": "Waar staat Porto bekend om?",
+    "options": ["Voetbal", "Wijn", "Stranden", "Musea"],
+    "answer": "Wijn"
+  },
+  {
+    "id": 3,
+    "question": "Welke rivier stroomt door Porto?",
+    "options": ["Douro", "Tejo", "Guadiana", "Minho"],
+    "answer": "Douro"
+  },
+  {
+    "id": 4,
+    "question": "Wat is een traditionele Portugese muziekstijl?",
+    "options": ["Fado", "Samba", "Flamenco", "Bossa Nova"],
+    "answer": "Fado"
+  },
+  {
+    "id": 5,
+    "question": "In welke regio van Portugal ligt Porto?",
+    "options": ["Noorden", "Midden", "Zuiden", "Algarve"],
+    "answer": "Noorden"
+  },
+  {
+    "id": 6,
+    "question": "Wat is de officiële taal van Portugal?",
+    "options": ["Portugees", "Spaans", "Frans", "Italiaans"],
+    "answer": "Portugees"
+  },
+  {
+    "id": 7,
+    "question": "Welke kleur heeft de Portugese vlag naast groen?",
+    "options": ["Rood", "Blauw", "Geel", "Wit"],
+    "answer": "Rood"
+  },
+  {
+    "id": 8,
+    "question": "Wat is een populair Portugees gerecht?",
+    "options": ["Bacalhau", "Paella", "Risotto", "Kebab"],
+    "answer": "Bacalhau"
+  },
+  {
+    "id": 9,
+    "question": "Welk eiland hoort bij Portugal?",
+    "options": ["Madeira", "Ibiza", "Sicilië", "Corsica"],
+    "answer": "Madeira"
+  },
+  {
+    "id": 10,
+    "question": "Welke Portugese stad is bekend om zijn universiteit?",
+    "options": ["Coimbra", "Porto", "Lissabon", "Faro"],
+    "answer": "Coimbra"
+  },
+  {
+    "id": 11,
+    "question": "Wat is de munteenheid van Portugal?",
+    "options": ["Euro", "Escudo", "Pound", "Dollar"],
+    "answer": "Euro"
+  },
+  {
+    "id": 12,
+    "question": "Welke oceaan grenst aan Portugal?",
+    "options": [
+      "Atlantische Oceaan",
+      "Stille Oceaan",
+      "Indische Oceaan",
+      "Noordelijke IJszee"
+    ],
+    "answer": "Atlantische Oceaan"
+  },
+  {
+    "id": 13,
+    "question": "Welk type wijn is Porto beroemd om?",
+    "options": ["Port", "Sherry", "Merlot", "Chardonnay"],
+    "answer": "Port"
+  },
+  {
+    "id": 14,
+    "question": "Wat is een populaire toeristische attractie in Porto?",
+    "options": [
+      "Dom Luís I-brug",
+      "Eiffeltoren",
+      "Brandenburgse Poort",
+      "Colosseum"
+    ],
+    "answer": "Dom Luís I-brug"
+  },
+  {
+    "id": 15,
+    "question": "Wat is het meest gebruikte openbaar vervoer in Porto?",
+    "options": ["Metro", "Bus", "Trein", "Tram"],
+    "answer": "Metro"
+  },
+  {
+    "id": 16,
+    "question": "Wat is de naam van het grootste voetbalstadion in Porto?",
+    "options": [
+      "Estádio do Dragão",
+      "Estádio da Luz",
+      "Camp Nou",
+      "Allianz Arena"
+    ],
+    "answer": "Estádio do Dragão"
+  },
+  {
+    "id": 17,
+    "question": "Welke zoetigheid is populair in Portugal?",
+    "options": ["Pastel de Nata", "Churros", "Pannenkoek", "Macaron"],
+    "answer": "Pastel de Nata"
+  },
+  {
+    "id": 18,
+    "question": "In welk jaar werd Portugal lid van de EU?",
+    "options": ["1986", "1990", "1975", "2001"],
+    "answer": "1986"
+  },
+  {
+    "id": 19,
+    "question": "Wat is een traditionele Portugese sport?",
+    "options": ["Stierenvechten", "Skiën", "Schansspringen", "Voetbal"],
+    "answer": "Stierenvechten"
+  },
+  {
+    "id": 20,
+    "question": "Wat betekent 'Obrigado' in het Portugees?",
+    "options": ["Dank je", "Hallo", "Tot ziens", "Goedemorgen"],
+    "answer": "Dank je"
+  },
+
+  {
+    "id": 21,
+    "question": "Wat is de grootste stad in Portugal?",
+    "options": ["Lissabon", "Porto", "Braga", "Faro"],
+    "answer": "Lissabon"
+  },
+  {
+    "id": 22,
+    "question": "Welke zeehaven is belangrijk in Porto?",
+    "options": ["Leixões", "Sines", "Figueira da Foz", "Aveiro"],
+    "answer": "Leixões"
+  },
+  {
+    "id": 23,
+    "question": "Welke taal spreekt men in Porto?",
+    "options": ["Portugees", "Spaans", "Frans", "Engels"],
+    "answer": "Portugees"
+  },
+  {
+    "id": 24,
+    "question": "Wat is het symbool van de stad Porto?",
+    "options": ["De draak", "De leeuw", "De adelaar", "Het paard"],
+    "answer": "De draak"
+  },
+  {
+    "id": 25,
+    "question": "Welk land grenst aan Portugal?",
+    "options": ["Spanje", "Frankrijk", "Italië", "België"],
+    "answer": "Spanje"
+  },
+  {
+    "id": 26,
+    "question": "Wat betekent 'Bom dia' in het Portugees?",
+    "options": ["Goedemorgen", "Goedenavond", "Hallo", "Dank je"],
+    "answer": "Goedemorgen"
+  },
+  {
+    "id": 27,
+    "question": "Welk gebied staat bekend om zijn kurkproductie?",
+    "options": ["Alentejo", "Porto", "Lissabon", "Algarve"],
+    "answer": "Alentejo"
+  },
+  {
+    "id": 28,
+    "question": "Wat is de Portugese naam voor 'kerstboom'?",
+    "options": [
+      "Árvore de Natal",
+      "Árvore de Páscoa",
+      "Árvore de Verão",
+      "Árvore de Outono"
+    ],
+    "answer": "Árvore de Natal"
+  },
+  {
+    "id": 29,
+    "question": "Hoe heet de beroemde boekwinkel in Porto?",
+    "options": ["Livraria Lello", "Bertrand", "Fnac", "Leitura"],
+    "answer": "Livraria Lello"
+  },
+  {
+    "id": 30,
+    "question": "Welke Portugese ontdekkingsreiziger bereikte India?",
+    "options": [
+      "Vasco da Gama",
+      "Ferdinand Magellaan",
+      "Pedro Álvares Cabral",
+      "Cristoffel Columbus"
+    ],
+    "answer": "Vasco da Gama"
+  },
+  {
+    "id": 31,
+    "question": "Wat is een populaire zomerbestemming in Portugal?",
+    "options": ["Algarve", "Porto", "Coimbra", "Braga"],
+    "answer": "Algarve"
+  },
+  {
+    "id": 32,
+    "question": "Wat is een bekende Portugese dessertwijn?",
+    "options": ["Moscatel", "Chianti", "Sherry", "Madeira"],
+    "answer": "Moscatel"
+  },
+  {
+    "id": 33,
+    "question": "Wat is de naam van de beroemde tram in Porto?",
+    "options": ["Tram 28", "Tram 1", "Tram 15", "Tram 5"],
+    "answer": "Tram 1"
+  },
+  {
+    "id": 34,
+    "question": "Hoeveel districten heeft Portugal?",
+    "options": ["18", "20", "17", "15"],
+    "answer": "18"
+  },
+  {
+    "id": 35,
+    "question": "Welke Portugese stad staat bekend om het Batalha-klooster?",
+    "options": ["Batalha", "Porto", "Lissabon", "Coimbra"],
+    "answer": "Batalha"
+  },
+  {
+    "id": 36,
+    "question": "Wat is de naam van de brug die Porto met Vila Nova de Gaia verbindt?",
+    "options": [
+      "Dom Luís I-brug",
+      "Brooklyn Bridge",
+      "Golden Gate Bridge",
+      "Tower Bridge"
+    ],
+    "answer": "Dom Luís I-brug"
+  },
+  {
+    "id": 37,
+    "question": "Welke vis wordt vaak gebruikt in de Portugese keuken?",
+    "options": ["Kabeljauw", "Tonijn", "Zalm", "Sardines"],
+    "answer": "Kabeljauw"
+  },
+  {
+    "id": 38,
+    "question": "Wat is de naam van de Portugese luchtvaartmaatschappij?",
+    "options": ["TAP Air Portugal", "Iberia", "Ryanair", "Air France"],
+    "answer": "TAP Air Portugal"
+  },
+  {
+    "id": 39,
+    "question": "Wat is de naam van de heuvel in Porto met uitzicht op de stad?",
+    "options": ["Serra do Pilar", "Montjuïc", "Olympus", "Pico"],
+    "answer": "Serra do Pilar"
+  },
+  {
+    "id": 40,
+    "question": "Hoe heet het voetbalteam van Porto?",
+    "options": ["FC Porto", "SL Benfica", "Sporting CP", "Braga FC"],
+    "answer": "FC Porto"
+  },
+  {
+    "id": 41,
+    "question": "Wat is het Portugese woord voor 'strand'?",
+    "options": ["Praia", "Mar", "Sol", "Costa"],
+    "answer": "Praia"
+  },
+  {
+    "id": 42,
+    "question": "Welke Portugese regio staat bekend om zijn wijngaarden?",
+    "options": ["Douro", "Algarve", "Minho", "Beira"],
+    "answer": "Douro"
+  },
+  {
+    "id": 43,
+    "question": "Wat is de naam van de nationale feestdag van Portugal?",
+    "options": [
+      "Dag van Portugal",
+      "Independence Day",
+      "Dag van de Arbeid",
+      "Bevrijdingsdag"
+    ],
+    "answer": "Dag van Portugal"
+  },
+  {
+    "id": 44,
+    "question": "Welke Portugese ontdekkingsreiziger ontdekte Brazilië?",
+    "options": [
+      "Pedro Álvares Cabral",
+      "Vasco da Gama",
+      "Fernando Magellaan",
+      "Cristoffel Columbus"
+    ],
+    "answer": "Pedro Álvares Cabral"
+  },
+  {
+    "id": 45,
+    "question": "Wat is de hoogste berg van Portugal?",
+    "options": ["Pico", "Serra da Estrela", "Pico Ruivo", "Serra do Marão"],
+    "answer": "Pico"
+  },
+  {
+    "id": 46,
+    "question": "Hoe noemt men een traditionele Portugese visstoofpot?",
+    "options": ["Caldeirada", "Bouillabaisse", "Paella", "Sushi"],
+    "answer": "Caldeirada"
+  },
+  {
+    "id": 47,
+    "question": "Welke Portugese eilandengroep ligt in de Atlantische Oceaan?",
+    "options": ["Azoren", "Balearen", "Canarische Eilanden", "Seychellen"],
+    "answer": "Azoren"
+  },
+  {
+    "id": 48,
+    "question": "Wat is de naam van de grootste universiteit in Portugal?",
+    "options": [
+      "Universiteit van Coimbra",
+      "Universiteit van Porto",
+      "Universiteit van Lissabon",
+      "Universiteit van Algarve"
+    ],
+    "answer": "Universiteit van Coimbra"
+  },
+  {
+    "id": 49,
+    "question": "Welke stad staat bekend om de productie van kurk in Portugal?",
+    "options": ["Évora", "Porto", "Lissabon", "Faro"],
+    "answer": "Évora"
+  },
+  {
+    "id": 50,
+    "question": "Welke kleur heeft de Portugese nationale vlag naast groen en rood?",
+    "options": ["Goud", "Blauw", "Zwart", "Wit"],
+    "answer": "Goud"
+  },
+  {
+    "id": 51,
+    "question": "Wat is de naam van de langste rivier in Portugal?",
+    "options": ["Tejo", "Douro", "Minho", "Sado"],
+    "answer": "Tejo"
+  },
+  {
+    "id": 52,
+    "question": "Welke stad wordt vaak beschouwd als de 'wieg' van Portugal?",
+    "options": ["Guimarães", "Porto", "Lissabon", "Braga"],
+    "answer": "Guimarães"
+  },
+  {
+    "id": 53,
+    "question": "Wat is de naam van de Portugese traditionele custardtaartjes?",
+    "options": ["Pastel de Nata", "Pastel de Belém", "Churros", "Croissant"],
+    "answer": "Pastel de Nata"
+  },
+  {
+    "id": 54,
+    "question": "Welke Portugese stad is bekend om zijn middeleeuwse muren?",
+    "options": ["Óbidos", "Funchal", "Setúbal", "Sintra"],
+    "answer": "Óbidos"
+  },
+  {
+    "id": 55,
+    "question": "Welke Portugese wijnstreek is een UNESCO-werelderfgoedlocatie?",
+    "options": ["Douro", "Alentejo", "Lisboa", "Setúbal"],
+    "answer": "Douro"
+  },
+  {
+    "id": 56,
+    "question": "Hoe heet het beroemde klooster in Lissabon?",
+    "options": [
+      "Mosteiro dos Jerónimos",
+      "Mosteiro da Batalha",
+      "Mosteiro de Alcobaça",
+      "Mosteiro de Tibães"
+    ],
+    "answer": "Mosteiro dos Jerónimos"
+  },
+  {
+    "id": 57,
+    "question": "Wat is de naam van het bekende Portugese zoete broodje?",
+    "options": ["Bola de Berlim", "Donut", "Tarte Tatin", "Pão de Queijo"],
+    "answer": "Bola de Berlim"
+  },
+  {
+    "id": 58,
+    "question": "Welke Portugese stad heeft een beroemde stenen brug?",
+    "options": ["Porto", "Lissabon", "Évora", "Coimbra"],
+    "answer": "Porto"
+  },
+  {
+    "id": 59,
+    "question": "Wat is een traditioneel Portugees ontbijt?",
+    "options": [
+      "Brood met boter en koffie",
+      "Pannenkoeken",
+      "Omelet",
+      "Cornflakes"
+    ],
+    "answer": "Brood met boter en koffie"
+  },
+  {
+    "id": 60,
+    "question": "Welke stad staat bekend om zijn jaarlijkse studentenfeest Queima das Fitas?",
+    "options": ["Coimbra", "Porto", "Lissabon", "Faro"],
+    "answer": "Coimbra"
+  },
+  {
+    "id": 61,
+    "question": "Wat is de naam van de traditionele Portugese soep met kool en aardappelen?",
+    "options": ["Caldo Verde", "Sopa de Tomate", "Gazpacho", "Sopa de Peixe"],
+    "answer": "Caldo Verde"
+  },
+  {
+    "id": 62,
+    "question": "Welke Portugese stad staat bekend om de productie van sardines in blik?",
+    "options": ["Lisboa", "Portimão", "Setúbal", "Porto"],
+    "answer": "Lisboa"
+  },
+  {
+    "id": 63,
+    "question": "Welk festival wordt jaarlijks in Porto gehouden en is beroemd om zijn vuurwerk?",
+    "options": ["São João", "Carnaval", "Santo António", "Páscoa"],
+    "answer": "São João"
+  },
+  {
+    "id": 64,
+    "question": "Wat is een populaire zoetigheid tijdens kerst in Portugal?",
+    "options": ["Bolo Rei", "Pastel de Nata", "Pão de Ló", "Fios de Ovos"],
+    "answer": "Bolo Rei"
+  },
+  {
+    "id": 65,
+    "question": "Wat is een beroemd paleis in Sintra, vlakbij Lissabon?",
+    "options": [
+      "Palácio da Pena",
+      "Palácio de Belém",
+      "Palácio de Mafra",
+      "Palácio Nacional"
+    ],
+    "answer": "Palácio da Pena"
+  },
+  {
+    "id": 66,
+    "question": "Welke bekende Portugese dichter is geboren in Lissabon?",
+    "options": ["Fernando Pessoa", "Camões", "Eça de Queirós", "José Saramago"],
+    "answer": "Fernando Pessoa"
+  },
+  {
+    "id": 67,
+    "question": "Wat is de naam van de beroemde Portugese kabelbaan in Lissabon?",
+    "options": [
+      "Elevador de Santa Justa",
+      "Elevador da Glória",
+      "Elevador do Lavra",
+      "Elevador da Bica"
+    ],
+    "answer": "Elevador de Santa Justa"
+  },
+  {
+    "id": 68,
+    "question": "Wat is de naam van het Portugese eiland dat bekend staat om de wijn?",
+    "options": ["Madeira", "Porto Santo", "Sao Miguel", "Santa Maria"],
+    "answer": "Madeira"
+  },
+  {
+    "id": 69,
+    "question": "Welke straat is beroemd om het nachtleven in Porto?",
+    "options": [
+      "Rua Galeria de Paris",
+      "Rua Augusta",
+      "Avenida da Liberdade",
+      "Rua do Comércio"
+    ],
+    "answer": "Rua Galeria de Paris"
+  },
+  {
+    "id": 70,
+    "question": "Wat is de naam van de Portugese valuta voordat de euro werd ingevoerd?",
+    "options": ["Escudo", "Peso", "Real", "Ptas"],
+    "answer": "Escudo"
+  },
+  {
+    "id": 71,
+    "question": "In welke maand wordt het São João festival in Porto gevierd?",
+    "options": ["Juni", "Juli", "Augustus", "September"],
+    "answer": "Juni"
+  },
+  {
+    "id": 72,
+    "question": "Wat is de Portugese naam voor kabeljauw?",
+    "options": ["Bacalhau", "Salmonete", "Peixe Espada", "Polvo"],
+    "answer": "Bacalhau"
+  },
+  {
+    "id": 73,
+    "question": "Welke Portugese stad staat bekend om zijn warme bronnen?",
+    "options": ["São Pedro do Sul", "Porto", "Évora", "Lissabon"],
+    "answer": "São Pedro do Sul"
+  },
+  {
+    "id": 74,
+    "question": "Wat is een traditioneel gerecht uit de regio Alentejo?",
+    "options": ["Açorda", "Francesinha", "Feijoada", "Caldo Verde"],
+    "answer": "Açorda"
+  },
+  {
+    "id": 75,
+    "question": "Welke Portugese koninklijke familie vluchtte in 1807 naar Brazilië?",
+    "options": [
+      "Het huis Braganza",
+      "Het huis Bourbon",
+      "Het huis Habsburg",
+      "Het huis Windsor"
+    ],
+    "answer": "Het huis Braganza"
+  },
+  {
+    "id": 76,
+    "question": "Wat is de bijnaam van de brug Dom Luís I in Porto?",
+    "options": [
+      "De IJzeren Brug",
+      "De Blauwe Brug",
+      "De Zilveren Brug",
+      "De Gouden Brug"
+    ],
+    "answer": "De IJzeren Brug"
+  },
+  {
+    "id": 77,
+    "question": "Wat betekent 'Saudade' in het Portugees?",
+    "options": [
+      "Een verlangen of heimwee",
+      "Een vreugdevolle ontmoeting",
+      "Een afscheid",
+      "Een ontdekking"
+    ],
+    "answer": "Een verlangen of heimwee"
+  },
+  {
+    "id": 78,
+    "question": "Wat is het bekendste visgerecht in Portugal?",
+    "options": [
+      "Bacalhau",
+      "Sardinhas Assadas",
+      "Polvo à Lagareiro",
+      "Arroz de Marisco"
+    ],
+    "answer": "Bacalhau"
+  },
+  {
+    "id": 79,
+    "question": "Welke Portugese stad is bekend om zijn 'azulejos' (geglazuurde tegels)?",
+    "options": ["Porto", "Sintra", "Lissabon", "Faro"],
+    "answer": "Porto"
+  },
+  {
+    "id": 80,
+    "question": "Hoe heet de Portugese versie van een sandwich met vlees en kaas?",
+    "options": ["Francesinha", "Tosta Mista", "Bifana", "Sande de Fiambre"],
+    "answer": "Francesinha"
+  },
+
+  {
+    "id": 81,
+    "question": "Welke stad in Portugal heeft een groot aquarium genaamd Oceanário?",
+    "options": ["Lissabon", "Porto", "Faro", "Braga"],
+    "answer": "Lissabon"
+  },
+  {
+    "id": 82,
+    "question": "Wat is de naam van het plein in Lissabon dat bekend staat als een belangrijk ontmoetingspunt?",
+    "options": [
+      "Praça do Comércio",
+      "Praça da Liberdade",
+      "Praça da Figueira",
+      "Rossio"
+    ],
+    "answer": "Praça do Comércio"
+  },
+  {
+    "id": 83,
+    "question": "Welke Portugese muzikant won het Eurovisiesongfestival in 2017?",
+    "options": ["Salvador Sobral", "Tony Carreira", "Mariza", "Ana Moura"],
+    "answer": "Salvador Sobral"
+  },
+  {
+    "id": 84,
+    "question": "Wat is de naam van de bekendste universiteit in Portugal, gevestigd in Coimbra?",
+    "options": [
+      "Universiteit van Coimbra",
+      "Universiteit van Porto",
+      "Universiteit van Lissabon",
+      "Universiteit van Algarve"
+    ],
+    "answer": "Universiteit van Coimbra"
+  },
+  {
+    "id": 85,
+    "question": "Wat is een veelgebruikt ingrediënt in de Portugese keuken?",
+    "options": ["Olijfolie", "Boter", "Room", "Pindakaas"],
+    "answer": "Olijfolie"
+  },
+  {
+    "id": 86,
+    "question": "Hoe heet de traditionele Portugese taart met kabeljauw en aardappelen?",
+    "options": [
+      "Bacalhau à Brás",
+      "Pastel de Nata",
+      "Francesinha",
+      "Pão de Ló"
+    ],
+    "answer": "Bacalhau à Brás"
+  },
+  {
+    "id": 87,
+    "question": "Wat is de naam van de beroemde brug in Lissabon die lijkt op de Golden Gate Bridge?",
+    "options": [
+      "Ponte 25 de Abril",
+      "Ponte Vasco da Gama",
+      "Dom Luís I-brug",
+      "Ponte Salgueiro Maia"
+    ],
+    "answer": "Ponte 25 de Abril"
+  },
+  {
+    "id": 88,
+    "question": "Welke stad wordt vaak beschouwd als de geboorteplaats van Portugal?",
+    "options": ["Guimarães", "Porto", "Lissabon", "Braga"],
+    "answer": "Guimarães"
+  },
+  {
+    "id": 89,
+    "question": "Wat is een populair gerecht met octopus in Portugal?",
+    "options": ["Polvo à Lagareiro", "Caldeirada", "Açorda", "Feijoada"],
+    "answer": "Polvo à Lagareiro"
+  },
+  {
+    "id": 90,
+    "question": "Wat betekent 'Adeus' in het Portugees?",
+    "options": ["Vaarwel", "Hallo", "Dank je", "Goedemiddag"],
+    "answer": "Vaarwel"
+  },
+  {
+    "id": 91,
+    "question": "Wat is een beroemd wijngebied in Portugal naast de Douro?",
+    "options": ["Alentejo", "Beira", "Minho", "Estremadura"],
+    "answer": "Alentejo"
+  },
+  {
+    "id": 92,
+    "question": "Hoe heet het Portugese gerecht dat bestaat uit bonen en vlees?",
+    "options": ["Feijoada", "Francesinha", "Bacalhau à Brás", "Piri-piri kip"],
+    "answer": "Feijoada"
+  },
+  {
+    "id": 93,
+    "question": "Wat is de naam van de bekende winkelstraat in Lissabon?",
+    "options": [
+      "Rua Augusta",
+      "Avenida da Liberdade",
+      "Rua de Santa Catarina",
+      "Rua de Belém"
+    ],
+    "answer": "Rua Augusta"
+  },
+  {
+    "id": 94,
+    "question": "Welke Portugese stad staat bekend om de Torre de Belém?",
+    "options": ["Lissabon", "Porto", "Braga", "Coimbra"],
+    "answer": "Lissabon"
+  },
+  {
+    "id": 95,
+    "question": "Wat is een populaire witte wijn uit Portugal?",
+    "options": ["Vinho Verde", "Chardonnay", "Pinot Grigio", "Riesling"],
+    "answer": "Vinho Verde"
+  },
+  {
+    "id": 96,
+    "question": "Welke muziekstijl uit Portugal staat bekend om zijn melancholische klanken?",
+    "options": ["Fado", "Samba", "Flamenco", "Tango"],
+    "answer": "Fado"
+  },
+  {
+    "id": 97,
+    "question": "Welke Portugese heilige wordt geëerd op 13 juni?",
+    "options": ["Santo António", "São João", "São Pedro", "São Paulo"],
+    "answer": "Santo António"
+  },
+  {
+    "id": 98,
+    "question": "Wat is een veelgebruikte Portugese specerij in vleesgerechten?",
+    "options": ["Piri-piri", "Kaneel", "Kurkuma", "Basilicum"],
+    "answer": "Piri-piri"
+  },
+  {
+    "id": 99,
+    "question": "Welke Portugese stad is beroemd om zijn sinaasappels?",
+    "options": ["Algarve", "Lissabon", "Porto", "Aveiro"],
+    "answer": "Algarve"
+  },
+  {
+    "id": 100,
+    "question": "Wat is het Portugese woord voor 'dank je'?",
+    "options": ["Obrigado", "Por Favor", "Sim", "Desculpe"],
+    "answer": "Obrigado"
+  }
+]
