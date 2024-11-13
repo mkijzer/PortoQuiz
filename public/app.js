@@ -1,4 +1,3 @@
-// app.js
 import {
   startTimer,
   resetTimer,
@@ -24,37 +23,46 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentQuestionIndex = 0;
   let score = 0;
   let questions = [];
-  let questionCount = 10; // Default to 10 questions if not selected
+  let questionCount = 10;
 
-  // Fetch Questions from Backend
   async function fetchQuestions() {
     try {
+      // Use dynamic baseUrl for both local and Render environments
+      const baseUrl = window.location.origin.includes("localhost")
+        ? "http://localhost:3000" // Local testing
+        : "https://your-app.onrender.com"; // Render production
+
       const response = await fetch(
-        `http://localhost:3000/api/questions?count=${questionCount}`
+        `${baseUrl}/api/questions?count=${questionCount}`
       );
+      if (!response.ok) {
+        console.error(
+          "Failed to fetch questions:",
+          response.status,
+          response.statusText
+        );
+        throw new Error(`Network response was not ok: ${response.statusText}`);
+      }
       const data = await response.json();
       questions = data.questions;
-      console.log("Fetched questions:", questions); // Log fetched questions for debugging
+      console.log("Fetched questions:", questions);
     } catch (error) {
-      console.error("Error fetching questions:", error);
+      console.error("Error fetching questions:", error.message);
     }
   }
 
-  // Show Question Count Modal on Start
   startQuizButton.addEventListener("click", () => {
-    questionCountModal.style.display = "flex"; // Show the question count modal
+    questionCountModal.style.display = "flex";
   });
 
-  // Set Question Count and Start Quiz
   questionCountButtons.forEach((button) => {
     button.addEventListener("click", async (e) => {
       questionCount = e.target.getAttribute("data-count");
-      questionCountModal.style.display = "none"; // Hide the modal
-      startQuiz();
+      questionCountModal.style.display = "none";
+      await startQuiz();
     });
   });
 
-  // Start Quiz Function
   async function startQuiz() {
     startQuizTimer();
     await fetchQuestions();
@@ -63,22 +71,20 @@ document.addEventListener("DOMContentLoaded", () => {
     startQuestion();
   }
 
-  // Display Question with Timer
   function startQuestion() {
     if (currentQuestionIndex < questions.length) {
       showQuestion();
-      startTimer(handleTimeOut); // Start timer with a callback for timeouts
+      startTimer(handleTimeOut);
     } else {
       endQuiz();
     }
   }
 
-  // Display Question
   function showQuestion() {
-    resetTimer(); // Reset the timer each time a new question is displayed
+    resetTimer();
     const question = questions[currentQuestionIndex];
     questionElement.textContent = question.question;
-    optionsContainer.innerHTML = ""; // Clear previous options
+    optionsContainer.innerHTML = "";
     question.options.forEach((option) => {
       const button = document.createElement("button");
       button.textContent = option;
@@ -87,9 +93,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Handle Answer Selection
   function selectAnswer(selectedOption) {
-    resetTimer(); // Reset timer after an answer is selected
+    resetTimer();
     const question = questions[currentQuestionIndex];
     if (selectedOption === question.answer) {
       score++;
@@ -98,16 +103,14 @@ document.addEventListener("DOMContentLoaded", () => {
     startQuestion();
   }
 
-  // Handle Timeout (No Answer Selected)
   function handleTimeOut() {
     currentQuestionIndex++;
     startQuestion();
   }
 
-  // End Quiz and Show Results
   async function endQuiz() {
-    resetTimer(); // Stop the question timer
-    const quizTime = stopQuizTimer(); // Get the total time taken
+    resetTimer();
+    const quizTime = stopQuizTimer();
     quizSection.style.display = "none";
     resultsSection.style.display = "block";
     scoreDisplay.textContent = `Score: ${score}`;
@@ -115,13 +118,12 @@ document.addEventListener("DOMContentLoaded", () => {
     displayScoreboard();
   }
 
-  // Fetch and Display Top 5 Scores with formatted time
   async function displayScoreboard() {
     try {
       const scores = await fetchScores();
       scoreboardDisplay.innerHTML = "<h3>Top 5 Scores</h3>";
       scores.slice(0, 5).forEach((entry) => {
-        const formattedTime = formatTime(entry.timeTaken); // Use raw milliseconds
+        const formattedTime = formatTime(entry.timeTaken);
         const scoreItem = document.createElement("p");
         scoreItem.style.display = "flex";
         scoreItem.style.justifyContent = "space-between";
@@ -133,7 +135,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Play Again Logic
   const restartQuizButton = document.getElementById("restart-quiz");
   restartQuizButton.addEventListener("click", () => {
     score = 0;

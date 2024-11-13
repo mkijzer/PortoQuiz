@@ -10,7 +10,6 @@ const questionsPath = path.join(process.cwd(), "data", "questions.json");
 router.get("/questions", (req, res) => {
   const count = parseInt(req.query.count) || 5;
 
-  // Read the questions.json file
   fs.readFile(questionsPath, "utf-8", (err, data) => {
     if (err) {
       res.status(500).json({ error: "Error loading questions" });
@@ -25,8 +24,8 @@ router.get("/questions", (req, res) => {
   });
 });
 
-// Other routes for scores (if you have them here)
-const scores = []; // Temporary array to store scores
+// Temporary array to store scores
+const scores = [];
 
 // Route to submit a score
 router.post("/scores", (req, res) => {

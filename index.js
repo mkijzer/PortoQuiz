@@ -1,25 +1,24 @@
 import express from "express";
 import path from "path";
-
 import quizRoutes from "./routes/quizRoutes.js";
-import corsMiddleware from "./middleware/corsMiddleware.js";
+import cors from "cors";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Enable CORS globally for all origins
+app.use(cors());
 app.use(express.json());
 
-// Enable CORS for all origins
-app.use(corsMiddleware);
-
 // Serve frontend files
-app.use(express.static(path.join(process.cwd(), "../frontend")));
+app.use(express.static(path.join(process.cwd(), "public")));
 
 // API routes
 app.use("/api", quizRoutes);
 
+// Default route for the frontend
 app.get("/", (req, res) => {
-  res.sendFile(path.join(process.cwd(), "../frontend/index.html"));
+  res.sendFile(path.join(process.cwd(), "public", "index.html"));
 });
 
 app.listen(PORT, () => {
