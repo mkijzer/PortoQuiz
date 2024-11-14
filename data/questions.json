@@ -715,5 +715,331 @@
     "question": "Wat is het Portugese woord voor 'dank je'?",
     "options": ["Obrigado", "Por Favor", "Sim", "Desculpe"],
     "answer": "Obrigado"
+  },
+  {
+    "id": 101,
+    "question": "Waar bevindt zich de oude stadsmuur Muralha Fernandina in Porto?",
+    "options": ["Ribeira", "Baixa", "Boavista", "Vila Nova de Gaia"],
+    "answer": "Ribeira"
+  },
+  {
+    "id": 102,
+    "question": "Welke markt in Porto is populair voor verse vis en lokale producten?",
+    "options": [
+      "Mercado do Bolhão",
+      "Mercado de São Sebastião",
+      "Mercado de Gaia",
+      "Mercado de Boavista"
+    ],
+    "answer": "Mercado do Bolhão"
+  },
+  {
+    "id": 103,
+    "question": "Wat is het beroemde uitzichtpunt in Porto dat uitzicht biedt op de rivier de Douro?",
+    "options": [
+      "Miradouro da Serra do Pilar",
+      "Miradouro da Vitória",
+      "Miradouro de São Pedro",
+      "Miradouro da Graça"
+    ],
+    "answer": "Miradouro da Serra do Pilar"
+  },
+  {
+    "id": 104,
+    "question": "Welke bekende straat in Porto staat bekend om zijn historische cafés en winkels?",
+    "options": [
+      "Rua de Santa Catarina",
+      "Rua da Boavista",
+      "Rua das Flores",
+      "Rua de Cedofeita"
+    ],
+    "answer": "Rua de Santa Catarina"
+  },
+  {
+    "id": 105,
+    "question": "Welke attractie in Porto herbergt een indrukwekkend azulejo-plafond?",
+    "options": [
+      "Palácio da Bolsa",
+      "Casa da Música",
+      "São Bento station",
+      "Livraria Lello"
+    ],
+    "answer": "Palácio da Bolsa"
+  },
+  {
+    "id": 106,
+    "question": "Waar kun je een panoramisch uitzicht over Porto krijgen vanuit een kabelbaan?",
+    "options": [
+      "Teleférico de Gaia",
+      "Tram 28",
+      "Elevador de Bica",
+      "Elevador de Santa Justa"
+    ],
+    "answer": "Teleférico de Gaia"
+  },
+  {
+    "id": 107,
+    "question": "Welke oude kerk in Porto heeft een gouden barokinterieur?",
+    "options": [
+      "Igreja de São Francisco",
+      "Sé do Porto",
+      "Igreja do Carmo",
+      "Igreja de Santo Ildefonso"
+    ],
+    "answer": "Igreja de São Francisco"
+  },
+  {
+    "id": 108,
+    "question": "Wat is het meest bekende strand dichtbij Porto?",
+    "options": [
+      "Praia de Matosinhos",
+      "Praia da Nazaré",
+      "Praia da Rocha",
+      "Praia de Carcavelos"
+    ],
+    "answer": "Praia de Matosinhos"
+  },
+  {
+    "id": 109,
+    "question": "Waar kun je een tentoonstelling vinden over de geschiedenis van Porto-wijn?",
+    "options": [
+      "Museu do Vinho do Porto",
+      "Casa da Música",
+      "Museu de Arte Contemporânea",
+      "Museu da Misericórdia"
+    ],
+    "answer": "Museu do Vinho do Porto"
+  },
+  {
+    "id": 110,
+    "question": "Welke straat in Porto staat bekend om zijn levendige nachtleven?",
+    "options": [
+      "Rua Galeria de Paris",
+      "Rua Santa Catarina",
+      "Avenida dos Aliados",
+      "Rua das Flores"
+    ],
+    "answer": "Rua Galeria de Paris"
+  },
+  {
+    "id": 111,
+    "question": "Wat is de naam van het oude tramstationmuseum in Porto?",
+    "options": [
+      "Museu do Carro Eléctrico",
+      "Museu do Transporte",
+      "Museu do Tram",
+      "Museu Ferroviário"
+    ],
+    "answer": "Museu do Carro Eléctrico"
+  },
+  {
+    "id": 112,
+    "question": "Waar in Porto kun je moderne kunstcollecties bekijken?",
+    "options": [
+      "Museu de Arte Contemporânea de Serralves",
+      "Casa da Música",
+      "Livraria Lello",
+      "Palácio da Bolsa"
+    ],
+    "answer": "Museu de Arte Contemporânea de Serralves"
+  },
+  {
+    "id": 113,
+    "question": "Welke kerk in Porto staat bekend om zijn tweelingkerken met verschillende gevels?",
+    "options": [
+      "Igreja do Carmo en Igreja dos Carmelitas",
+      "Sé do Porto",
+      "Igreja de Santo Ildefonso",
+      "Igreja de São Nicolau"
+    ],
+    "answer": "Igreja do Carmo en Igreja dos Carmelitas"
+  },
+  {
+    "id": 114,
+    "question": "Wat is het iconische standbeeld in Porto dat de stad symboliseert?",
+    "options": [
+      "Standbeeld van Infante Dom Henrique",
+      "Standbeeld van Vasco da Gama",
+      "Standbeeld van Pedro IV",
+      "Standbeeld van Dom José"
+    ],
+    "answer": "Standbeeld van Infante Dom Henrique"
+  },
+  {
+    "id": 115,
+    "question": "Waar kun je in Porto boten zien die vroeger wijnvaten vervoerden?",
+    "options": ["Ribeira", "Boavista", "Baixa", "Sé"],
+    "answer": "Ribeira"
+  },
+  {
+    "id": 116,
+    "question": "Welke beroemde tuin in Porto biedt een prachtig uitzicht over de Douro-rivier?",
+    "options": [
+      "Jardins do Palácio de Cristal",
+      "Jardim Botânico do Porto",
+      "Parque da Cidade",
+      "Jardim das Virtudes"
+    ],
+    "answer": "Jardins do Palácio de Cristal"
+  },
+  {
+    "id": 117,
+    "question": "Waar kun je het historische treinstation São Bento vinden in Porto?",
+    "options": [
+      "In het centrum van Porto",
+      "Vila Nova de Gaia",
+      "Boavista",
+      "Matosinhos"
+    ],
+    "answer": "In het centrum van Porto"
+  },
+  {
+    "id": 118,
+    "question": "Wat is de traditionele straatmuziek die je vaak in Porto hoort?",
+    "options": ["Fado", "Samba", "Flamenco", "Bolero"],
+    "answer": "Fado"
+  },
+  {
+    "id": 119,
+    "question": "Wat is een traditionele Portugese dessert dat populair is in Porto?",
+    "options": [
+      "Rabanadas",
+      "Crema Catalana",
+      "Tiramisu",
+      "Pastel de Tentúgal"
+    ],
+    "answer": "Rabanadas"
+  },
+  {
+    "id": 120,
+    "question": "Welke brug in Porto is ontworpen door een leerling van Gustave Eiffel?",
+    "options": [
+      "Dom Luís I-brug",
+      "Arrábida-brug",
+      "Freixo-brug",
+      "Ponte Maria Pia"
+    ],
+    "answer": "Ponte Maria Pia"
+  },
+
+  {
+    "id": 121,
+    "question": "Wat is de bijnaam van het stadion Estádio do Dragão in Porto?",
+    "options": [
+      "Het Drakenstadion",
+      "De Blauwe Tempel",
+      "Het Voetbalpaleis",
+      "De Haven"
+    ],
+    "answer": "Het Drakenstadion"
+  },
+  {
+    "id": 122,
+    "question": "Welke Portugese speler is de all-time topscorer van het nationale team?",
+    "options": ["Cristiano Ronaldo", "Eusébio", "Paulo Futre", "Deco"],
+    "answer": "Cristiano Ronaldo"
+  },
+  {
+    "id": 123,
+    "question": "Welke Porto-speler won de Ballon d'Or in 1987?",
+    "options": ["Rabah Madjer", "Deco", "Paulo Futre", "Fernando Gomes"],
+    "answer": "Paulo Futre"
+  },
+  {
+    "id": 124,
+    "question": "Welke Portugese club werd in 2004 de winnaar van de UEFA Champions League?",
+    "options": ["FC Porto", "SL Benfica", "Sporting CP", "Boavista"],
+    "answer": "FC Porto"
+  },
+  {
+    "id": 125,
+    "question": "In welk jaar organiseerde Portugal het Europees Kampioenschap voetbal?",
+    "options": ["2004", "2008", "1996", "2012"],
+    "answer": "2004"
+  },
+  {
+    "id": 126,
+    "question": "Welke Portugese coach wordt beschouwd als een van de beste ter wereld en begon zijn carrière bij Porto?",
+    "options": [
+      "José Mourinho",
+      "Fernando Santos",
+      "Carlos Queiroz",
+      "Paulo Bento"
+    ],
+    "answer": "José Mourinho"
+  },
+  {
+    "id": 127,
+    "question": "Wat is de bijnaam van de Portugese nationale voetbalploeg?",
+    "options": [
+      "Os Navegadores",
+      "De Rode Duivels",
+      "De Zwarte Panters",
+      "De Leeuwen"
+    ],
+    "answer": "Os Navegadores"
+  },
+  {
+    "id": 128,
+    "question": "Welke Porto-speler maakte het beroemde hakje tegen Bayern München in de Europacup I-finale van 1987?",
+    "options": ["Rabah Madjer", "Fernando Gomes", "Paulo Futre", "Hulk"],
+    "answer": "Rabah Madjer"
+  },
+  {
+    "id": 129,
+    "question": "Welke Portugese speler scoorde de winnende goal tijdens de Euro 2016-finale?",
+    "options": ["Éder", "Cristiano Ronaldo", "Pepe", "Nani"],
+    "answer": "Éder"
+  },
+  {
+    "id": 130,
+    "question": "In welk stadion speelt de Portugese nationale ploeg haar thuiswedstrijden meestal?",
+    "options": [
+      "Estádio da Luz",
+      "Estádio do Dragão",
+      "Estádio José Alvalade",
+      "Estádio Algarve"
+    ],
+    "answer": "Estádio da Luz"
+  },
+  {
+    "id": 131,
+    "question": "Wat is de naam van de beroemde treinstation in Porto dat bekend staat om zijn 'azulejos' tegelkunst?",
+    "options": ["São Bento", "Campanhã", "Aliados", "Bolhão"],
+    "answer": "São Bento"
+  },
+  {
+    "id": 132,
+    "question": "In Porto vindt jaarlijks een wedstrijd plaats waarbij mensen houten hamers gebruiken. Wat wordt er gevierd?",
+    "options": ["São João", "Carnaval", "Pasen", "Midzomer"],
+    "answer": "São João"
+  },
+  {
+    "id": 133,
+    "question": "Welke beroemde brug in Porto is ontworpen door een leerling van Gustave Eiffel?",
+    "options": [
+      "Dom Luís I-brug",
+      "Arrábida-brug",
+      "Freixo-brug",
+      "Maria Pia-brug"
+    ],
+    "answer": "Dom Luís I-brug"
+  },
+  {
+    "id": 134,
+    "question": "Wat kun je vinden in het beroemde Livraria Lello in Porto, dat ook een inspiratiebron was voor de Harry Potter-boeken?",
+    "options": [
+      "Een prachtige houten trap",
+      "Een geheime kelder",
+      "Een glazen plafond",
+      "Een café met Portugese lekkernijen"
+    ],
+    "answer": "Een prachtige houten trap"
+  },
+  {
+    "id": 135,
+    "question": "Welke Portugese lekkernij, populair in Porto, is een stevige sandwich met vlees, gesmolten kaas, en saus?",
+    "options": ["Francesinha", "Bifana", "Tosta Mista", "Pastel de Nata"],
+    "answer": "Francesinha"
   }
 ]

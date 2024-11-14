@@ -42,7 +42,7 @@ body {
 /* Start Quiz Button */
 #body {
   width: 100%;
-  padding-top: 120px; /* Adjusted padding to align with smaller header */
+  height: 100vh; /* Full viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +98,7 @@ body {
 }
 
 #quiz #question {
-  font-size: 1.8rem;
+  font-size: 1.2rem; /* Smaller font size for mobile */
   color: #d4d4f5; /* Soft light color */
   margin-bottom: 20px;
 }
@@ -107,30 +107,31 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 
 #quiz #options button {
-  padding: 12px;
+  padding: 10px; /* Slightly smaller padding for options */
   font-size: 1rem;
   color: #1a1a2e;
-  background: linear-gradient(145deg, #e0e0e0, #b8b8d4); /* Soft gradient */
+  background: linear-gradient(145deg, #e0e0e0, #b8b8d4); /* Light gradient */
   border: none;
   border-radius: 15px;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  margin: 4px 0; /* Reduced spacing between options */
 }
 
 #quiz #options button:hover {
-  transform: scale(1.02);
+  transform: scale(1);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 /* Timer */
 #timer {
+  display: none; /* Hide the timer text */
   margin-top: 15px;
-  font-size: 1.1rem;
+  font-size: 0;
   color: #d4d4f5;
 }
 
@@ -139,8 +140,6 @@ body {
   position: relative;
   width: 100%;
   margin-top: 15px;
-  font-size: 1.1rem;
-  color: #d4d4f5;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -191,18 +190,18 @@ body {
 }
 
 #scoreboard h3 {
-  font-size: 1.3rem;
+  font-size: 1.1rem; /* Slightly smaller font for title */
   color: #d4d4f5;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
 #scoreboard p {
-  font-size: 1.1rem;
+  font-size: 0.8rem; /* Smaller font for entries */
   color: #e0e0e0;
   display: flex;
   justify-content: space-between;
-  padding: 8px 0; /* Increased padding for better readability */
+  padding: 5px 0; /* Adjusted padding */
   border-bottom: 1px solid #333;
 }
 
@@ -221,41 +220,12 @@ body {
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-  margin-top: 30px; /* Increased margin for better spacing */
+  margin-top: 30px;
 }
 
 #results button:hover {
   transform: translateY(-4px) scale(1.05);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
-}
-
-/* Scoreboard Styling */
-#scoreboard {
-  background: #1e1e35; /* Darker background for the scoreboard */
-  margin-top: 20px;
-  padding: 20px 30px;
-  border-radius: 20px; /* Rounded corners for a smooth look */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-}
-
-#scoreboard h3 {
-  font-size: 1.2rem;
-  color: #d4d4f5;
-  margin-bottom: 10px;
-}
-
-#scoreboard p {
-  font-size: 1rem;
-  color: #e0e0e0;
-  display: flex;
-  justify-content: space-between; /* Separate name and score */
-  padding: 5px 0;
-  border-bottom: 1px solid #333; /* Divider line for each entry */
-}
-
-/* Last entry without a border */
-#scoreboard p:last-child {
-  border-bottom: none;
 }
 
 /* Modal Background */
@@ -265,11 +235,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.85); /* Darker background overlay */
+  background: rgba(0, 0, 0, 0.85);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1001; /* Above other elements */
+  z-index: 1001;
 }
 
 /* Modal Content */
@@ -294,16 +264,16 @@ body {
   font-size: 1rem;
   margin: 15px 0;
   border-radius: 10px;
-  border: 2px solid #444; /* Subtle border for input field */
-  background: #1a1a2e; /* Dark background inside input */
+  border: 2px solid #444;
+  background: #1a1a2e;
   color: #d4d4f5;
-  text-align: center; /* Centered text */
+  text-align: center;
   outline: none;
   transition: border-color 0.3s ease;
 }
 
 .modal-content input:focus {
-  border-color: #7269f3; /* Highlight border on focus */
+  border-color: #7269f3;
 }
 
 .modal-content button {
@@ -316,7 +286,7 @@ body {
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-  margin-top: 10px; /* Extra spacing below input */
+  margin-top: 10px;
 }
 
 .modal-content button:hover {

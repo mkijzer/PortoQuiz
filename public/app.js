@@ -93,8 +93,13 @@ document.addEventListener("DOMContentLoaded", () => {
   function selectAnswer(selectedOption) {
     resetTimer();
     const question = questions[currentQuestionIndex];
+    console.log("Selected:", selectedOption, "Correct:", question.answer); // Log selected and correct answers
+
     if (selectedOption === question.answer) {
       score++;
+      console.log("Correct answer! Score is now:", score); // Log increment
+    } else {
+      console.log("Wrong answer. Score remains:", score);
     }
     currentQuestionIndex++;
     startQuestion();
@@ -110,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const quizTime = stopQuizTimer();
     quizSection.style.display = "none";
     resultsSection.style.display = "block";
-    scoreDisplay.textContent = `Score: ${score}`;
+    scoreDisplay.textContent = `Je hebt ${score} vragen goed`;
     await submitScore(score, quizTime);
     displayScoreboard();
   }
@@ -118,13 +123,13 @@ document.addEventListener("DOMContentLoaded", () => {
   async function displayScoreboard() {
     try {
       const scores = await fetchScores();
-      scoreboardDisplay.innerHTML = "<h3>Top 5 Scores</h3>";
+      scoreboardDisplay.innerHTML = "<h3>Top 5</h3>";
       scores.slice(0, 5).forEach((entry) => {
         const formattedTime = formatTime(entry.timeTaken);
         const scoreItem = document.createElement("p");
         scoreItem.style.display = "flex";
         scoreItem.style.justifyContent = "space-between";
-        scoreItem.innerHTML = `<span>${entry.name}</span> <span>Score: ${entry.score}, Time: ${formattedTime}</span>`;
+        scoreItem.innerHTML = `<span>${entry.name}</span> <span>Score: ${entry.score} ,  ${formattedTime}</span>`;
         scoreboardDisplay.appendChild(scoreItem);
       });
     } catch (error) {
@@ -137,6 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
     score = 0;
     currentQuestionIndex = 0;
     resultsSection.style.display = "none";
-    document.getElementById("body").style.display = "block";
+    quizSection.style.display = "none"; // Hide the quiz section
+    document.getElementById("body").style.display = "flex"; // Show the start button section
   });
 });
