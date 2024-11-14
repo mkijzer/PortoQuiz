@@ -9,10 +9,10 @@ body {
   font-family: "Arial", sans-serif;
   background: linear-gradient(
     135deg,
-    #1a1a2e,
-    #16213e
-  ); /* Soft dark gradient */
-  color: #e0e0e0;
+    #0a3d2e,
+    #0c5240
+  ); /* Soft green gradient */
+  color: #e0f0e8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,23 +26,37 @@ body {
 /* Header Section */
 #header {
   width: 100%;
-  padding: 15px; /* Reduced padding for smaller appearance */
+  padding: 15px;
   text-align: center;
-  font-size: 1.8rem; /* Smaller font size */
-  color: #e0e0e0;
-  background: linear-gradient(145deg, #282846, #1a1a2e); /* Subtle gradient */
+  font-size: 1.1rem;
+  color: #e0f0e8;
+  background: linear-gradient(
+    145deg,
+    #174f3d,
+    #0a3d2e
+  ); /* Subtle green gradient */
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
-  border-radius: 0 0 30px 30px; /* Rounded bottom corners */
+  border-radius: 0 0 30px 30px;
+}
+
+/* start-image */
+#start-image {
+  width: 80%;
+  max-width: 300px; /* Adjust as necessary */
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* Add a shadow */
 }
 
 /* Start Quiz Button */
 #body {
   width: 100%;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,14 +68,14 @@ body {
   padding: 15px 40px;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #e0e0e0;
+  color: #e0f0e8;
   background: linear-gradient(
     145deg,
-    #3a3a5f,
-    #282846
-  ); /* Dark button gradient */
+    #3a705d,
+    #174f3d
+  ); /* Green button gradient */
   border: none;
-  border-radius: 25px; /* Rounded, pill-shaped button */
+  border-radius: 25px;
   cursor: pointer;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -76,14 +90,14 @@ body {
 #quiz {
   width: 90%;
   min-height: 60vh;
-  margin-top: 180px; /* Moved the section lower */
+  margin-top: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  background: #2a2a42; /* Deep background color */
-  border-radius: 40px; /* Rounded corners */
+  background: #174f3d;
+  border-radius: 40px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
 }
 
@@ -98,8 +112,8 @@ body {
 }
 
 #quiz #question {
-  font-size: 1.2rem; /* Smaller font size for mobile */
-  color: #d4d4f5; /* Soft light color */
+  font-size: 1.2rem;
+  color: #b3e6d1; /* Soft mint color */
   margin-bottom: 20px;
 }
 
@@ -110,16 +124,20 @@ body {
 }
 
 #quiz #options button {
-  padding: 10px; /* Slightly smaller padding for options */
+  padding: 10px;
   font-size: 1rem;
-  color: #1a1a2e;
-  background: linear-gradient(145deg, #e0e0e0, #b8b8d4); /* Light gradient */
+  color: #0a3d2e;
+  background: linear-gradient(
+    145deg,
+    #e0f0e8,
+    #c8e6d4
+  ); /* Light green gradient */
   border: none;
   border-radius: 15px;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-  margin: 4px 0; /* Reduced spacing between options */
+  margin: 4px 0;
 }
 
 #quiz #options button:hover {
@@ -129,10 +147,10 @@ body {
 
 /* Timer */
 #timer {
-  display: none; /* Hide the timer text */
+  display: none;
   margin-top: 15px;
   font-size: 0;
-  color: #d4d4f5;
+  color: #b3e6d1;
 }
 
 /* Timer Bar Container */
@@ -148,8 +166,8 @@ body {
 /* Timer Bar */
 .timer-bar {
   width: 100%;
-  height: 8px; /* Height of the timer line */
-  background: linear-gradient(145deg, #e0e0e0, #b8b8d4); /* Light gradient */
+  height: 8px;
+  background: linear-gradient(145deg, #e0f0e8, #c8e6d4);
   border-radius: 5px;
   transition: width linear;
   margin-bottom: 5px;
@@ -163,26 +181,26 @@ body {
   padding: 40px;
   margin-top: 180px;
   text-align: center;
-  background: #2a2a42;
+  background: #174f3d;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
   border-radius: 40px;
 }
 
 #results h2 {
   font-size: 2rem;
-  color: #d4d4f5;
+  color: #b3e6d1;
   margin-bottom: 20px;
 }
 
 #results #score {
   font-size: 1.5rem;
-  color: #e0e0e0;
+  color: #e0f0e8;
   margin-top: 10px;
 }
 
 /* Scoreboard Styling */
 #scoreboard {
-  background: #1e1e35;
+  background: #145141;
   margin-top: 20px;
   padding: 20px 30px;
   border-radius: 20px;
@@ -190,18 +208,18 @@ body {
 }
 
 #scoreboard h3 {
-  font-size: 1.1rem; /* Slightly smaller font for title */
-  color: #d4d4f5;
+  font-size: 1.1rem;
+  color: #b3e6d1;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 
 #scoreboard p {
-  font-size: 0.8rem; /* Smaller font for entries */
-  color: #e0e0e0;
+  font-size: 0.8rem;
+  color: #e0f0e8;
   display: flex;
   justify-content: space-between;
-  padding: 5px 0; /* Adjusted padding */
+  padding: 5px 0;
   border-bottom: 1px solid #333;
 }
 
@@ -213,8 +231,8 @@ body {
 #results button {
   padding: 12px 35px;
   font-size: 1.2rem;
-  color: #e0e0e0;
-  background: linear-gradient(145deg, #3a3a5f, #282846);
+  color: #e0f0e8;
+  background: linear-gradient(145deg, #3a705d, #174f3d);
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -244,7 +262,7 @@ body {
 
 /* Modal Content */
 .modal-content {
-  background: #2a2a42;
+  background: #174f3d;
   padding: 30px;
   border-radius: 20px;
   text-align: center;
@@ -253,7 +271,7 @@ body {
 }
 
 .modal-content h3 {
-  color: #d4d4f5;
+  color: #b3e6d1;
   font-size: 1.4rem;
   margin-bottom: 20px;
 }
@@ -264,23 +282,23 @@ body {
   font-size: 1rem;
   margin: 15px 0;
   border-radius: 10px;
-  border: 2px solid #444;
-  background: #1a1a2e;
-  color: #d4d4f5;
+  border: 2px solid #2b7f68;
+  background: #0a3d2e;
+  color: #b3e6d1;
   text-align: center;
   outline: none;
   transition: border-color 0.3s ease;
 }
 
 .modal-content input:focus {
-  border-color: #7269f3;
+  border-color: #3ac9a5;
 }
 
 .modal-content button {
   padding: 10px 25px;
   font-size: 1rem;
-  color: #e0e0e0;
-  background: linear-gradient(145deg, #3a3a5f, #282846);
+  color: #e0f0e8;
+  background: linear-gradient(145deg, #3a705d, #174f3d);
   border: none;
   border-radius: 10px;
   cursor: pointer;
