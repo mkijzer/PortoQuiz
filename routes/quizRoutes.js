@@ -1,10 +1,15 @@
-// quizRoutes.js
 import express from "express";
 import fs from "fs";
 import path from "path";
+import initializeDatabase from "../database.js";
 
 const router = express.Router();
 const questionsPath = path.join(process.cwd(), "data", "questions.json");
+
+let db;
+(async () => {
+  db = await initializeDatabase();
+})();
 
 // Route to get random questions
 router.get("/questions", (req, res) => {
@@ -24,24 +29,38 @@ router.get("/questions", (req, res) => {
   });
 });
 
-// Temporary array to store scores
-const scores = [];
-
 // Route to submit a score
-router.post("/scores", (req, res) => {
+router.post("/scores", async (req, res) => {
+  console.log("Adding score to database:", req.body);
   const { name, score, timeTaken } = req.body;
   if (name && score !== undefined && timeTaken !== undefined) {
-    scores.push({ name, score, timeTaken });
-    scores.sort((a, b) => b.score - a.score || a.timeTaken - b.timeTaken);
-    res.status(201).json({ message: "Score submitted successfully" });
+    try {
+      await db.run(
+        `INSERT INTO scores (name, score, timeTaken) VALUES (?, ?, ?)`,
+        [name, score, timeTaken]
+      );
+      res.status(201).json({ message: "Score submitted successfully" });
+    } catch (error) {
+      console.error("Error saving score:", error);
+      res.status(500).json({ message: "Error saving score" });
+    }
   } else {
     res.status(400).json({ message: "Invalid score data" });
   }
 });
 
 // Route to retrieve top scores
-router.get("/scores", (req, res) => {
-  res.json(scores.slice(0, 5)); // Return only the top 5 scores
+router.get("/scores", async (req, res) => {
+  console.log("Fetching scores from database");
+  try {
+    const scores = await db.all(
+      `SELECT name, score, timeTaken FROM scores ORDER BY score DESC, timeTaken ASC LIMIT 5`
+    );
+    res.json(scores);
+  } catch (error) {
+    console.error("Error retrieving scores:", error);
+    res.status(500).json({ message: "Error retrieving scores" });
+  }
 });
 
 export default router;
